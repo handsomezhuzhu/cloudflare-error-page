@@ -7,6 +7,7 @@
 */
 import ejs from 'ejs';
 import templateContent from './template.ejs?raw';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 let template = ejs.compile(templateContent);
